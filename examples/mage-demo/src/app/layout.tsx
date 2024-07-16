@@ -18,6 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <script
+        async
+        src="https://ackee-production-f4bf.up.railway.app/tracker.js"
+        data-ackee-server="https://ackee-production-f4bf.up.railway.app"
+        data-ackee-domain-id="40e4d09d-8535-4e39-91fa-ef6105d123a7"
+      ></script>
       <body className={orelega_One.className}>{children}</body>
     </html>
   );
