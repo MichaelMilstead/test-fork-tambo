@@ -7,7 +7,7 @@ import { Title } from "./title";
 export default function Home() {
   return (
     <div
-      className="flex flex-col h-screen  text-black p-4 justify-center items-center"
+      className="flex flex-col h-[100dvh] text-black p-4 justify-center items-center"
       style={{ backgroundColor: "#AAB7B5" }}
     >
       <Title />
