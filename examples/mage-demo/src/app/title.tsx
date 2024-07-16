@@ -16,6 +16,11 @@ export const Title = () => {
           Michael Milstead
         </Link>
       </div>
+      <div>
+        <Link href={"https://discord.gg/6CFhP8Xh"} className="text-blue-500">
+          Join the discord!{" "}
+        </Link>
+      </div>
       <div className="text-xs">
         note: this demo uses fake profiles and discussions
       </div>
